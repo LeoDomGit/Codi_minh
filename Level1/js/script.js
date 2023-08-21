@@ -180,12 +180,13 @@ function loadProduct() {
         }
 
         $("#product-data").append(str);
+          addtocart();
       },
     });
   } else {
     $("#body-data").hide();
   }
-  addtocart();
+
 
 }
 function loadmoreProduct() {
